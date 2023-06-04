@@ -1,0 +1,53 @@
+.sign_up_body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.sign_up_container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sign_up_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sign_up_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign_up_label {
+  margin-top: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=name],
+input[type=surname],
+input[type=password] {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+  background-color: #D96D30;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #D96D30;
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital@1&family=Wellfleet&display=swap");
+
+.sign_in_body {
+  text-align: center;
+  background-color: white;
+}
+
+.sign_in_container {
+  font-family: Wellfleet;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sign_in_title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sign_in_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign_in_label {
+  margin-top: 10px;
+}
+
+.sign_in_input[type=text],
+.sign_in_input[type=password] {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.sign_in_input[type=submit] {
+  font-family: Wellfleet;
+  background-color: #D96D30;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign_in_additional {
+  display: block;
+  font-family: Ubuntu;
+  text-align: center;
+  margin: 1em, auto, 1em, auto;
+}
+
+.Sign_in_test {
+  color: black;
+  font-size: 1em;
+  padding: 0.1em 1em;
+  text-align: center;
+}
