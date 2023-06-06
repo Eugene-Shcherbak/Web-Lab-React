@@ -13,25 +13,25 @@ function Products() {
   }, []);
 
   const fetchProducts = async () => {
-    try {
-      const response = await fetch("http://127.0.0.1:5000/product/all", {
-        method: "GET",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-      });
+  try {
+    const response = await fetch("http://127.0.0.1:5000/product/all", {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+    });
 
-      if (response.ok) {
-        const data = await response.json();
-        setProducts(data.products);
-      } else {
-        console.error("Error fetching products");
-      }
-    } catch (error) {
-      console.error(error);
+    if (response.ok) {
+      const data = await response.json();
+      setProducts(data.products);
+    } else {
+      console.error("Error fetching products");
     }
-  };
+  } catch (error) {
+    console.error(error);
+  }
+};
 
   const renderProducts = () => {
     return products.map((product) => (
@@ -90,7 +90,7 @@ function Products() {
                 )}
                 <li>
                   {" "}
-                  <Link to="/SignIn">Signin</Link>
+                  <Link to="/SignIn">Sign in</Link>
                 </li>
                 <li>
                   {" "}

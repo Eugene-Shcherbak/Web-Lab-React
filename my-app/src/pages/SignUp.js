@@ -49,7 +49,7 @@ function SignUp(){
 			<div className="sign_up_body">
             <div className="sign_up_container">
 		<h2 className="sign_up_title">Sign Up</h2>
-		<form className="sign_up_form" onSubmit={handleRegistration}>
+		<form className="sign_up_form" data-testid="sign-up-form" onSubmit={handleRegistration}>
 			<label className="sign_up_label" htmlFor="username">Username</label>
 			<input type="text" id="username" name="username" required/>
 			

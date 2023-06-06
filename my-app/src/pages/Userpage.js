@@ -67,7 +67,7 @@ function Userpage() {
                 {localStorage.username === "admin" && (
                   <li><Link to="/ProductCr">ProductCr</Link></li>
                 )}
-                <li><Link to="/SignIn">Signin</Link></li>
+                <li><Link to="/SignIn">Sign in</Link></li>
                 <li><Link to="/Userpage" id="userid">User not logged in</Link></li>
               </ul>
             </nav>
